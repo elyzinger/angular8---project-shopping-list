@@ -1,0 +1,28 @@
+.search{
+      height: 70px;
+      margin-bottom: 10px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    /* align-self: center; */
+    text-align: center;
+     border-radius: 45%; 
+    background-color: cyan;
+}
+.search-inbox{
+    font-size: 20px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5%;
+    text-align: center;
+    background-color:whitesmoke;
+    color: teal;   
+}
+.btn-add{
+    border-radius: 10%;
+    width: 100px;
+    margin-left: 20px;
+    background-color: rgb(219, 182, 214);
+    opacity: 0.7;
+    
+}

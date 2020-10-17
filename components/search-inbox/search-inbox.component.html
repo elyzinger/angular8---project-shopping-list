@@ -1,0 +1,7 @@
+<div class="row search">
+
+<h2 style="color: slategray; font-weight: bold;">Add Product :   </h2>
+<input (keyup.enter)="handleAddToList(productName)"  class="search-inbox"type="text" [(ngModel)]="productName" placeholder="search product">
+<button (click)="handleAddToList(productName)" class="btn-add">Add</button>
+
+</div>

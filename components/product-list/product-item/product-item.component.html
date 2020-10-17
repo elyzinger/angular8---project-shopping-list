@@ -1,0 +1,17 @@
+<div class="card product-item">
+    
+    <div class="card-body ">
+        <div class="row">
+      <h5 class="card-title product-item-title">{{productItem.name}}</h5>
+      <div class="add-remove">
+        <input style="text-align: center;" class="comments" [(ngModel)] = "productItem.comment" placeholder="Add Comment" >
+      <button (click)="onAdd()" class="add-remove1" style="background-color: black; color: white;"> + </button>
+      <button (click)="onDecrease()" class=" add-remove1 "style="background-color: whitesmoke; "> - </button>
+      <label  class="product-item-amount">{{productItem.qty}}</label>
+      
+    </div>
+    <button (click)="deleteProductItem(productItem)"  class="btn btn-primary delete-item">x</button>
+    </div>
+      
+    </div>
+  </div>

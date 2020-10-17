@@ -1,0 +1,35 @@
+.product-list-main{
+    padding: 5%;
+    background-color: plum	;
+    position: relative;
+    left: 12%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px black;
+    
+}
+.delete-list-btn{
+    opacity: 0.8;
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    right: 3% ;
+    bottom: 3%;
+background-color: darkred;
+    
+}
+.product-list{
+    padding-bottom: 10px;
+    position: relative;
+}
+.items-count{
+    padding-left:10px;
+    font-weight: bold;
+}
+.delete-list-btn:hover{
+    opacity: 1;
+    background-color: skyblue;
+    color: chartreuse;
+    border-radius: 3%;
+    box-shadow: 1px 1px 1px blue;
+    text-shadow: 1px 1px 1px black;
+}
